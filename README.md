@@ -61,12 +61,3 @@ IP address CIDR provided: 192.168.0.1/24
 
 =========== End of Scan ===========
 ```
-
----
-
-## **Code Overview**  
-
-- **`main()`**: Handles argument parsing and initiates network scanning.  
-- **`scan_network(ip_range)`**: Executes ARP scans on the provided IP range.  
-- **`validate_ip_cidr(ip_cidr)`**: Validates whether the given IP address is in proper CIDR format.  
-- **`print_logo()`**: Displays an ASCII logo to enhance user experience.  
